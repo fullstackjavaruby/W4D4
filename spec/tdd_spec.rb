@@ -6,3 +6,9 @@ describe "#my_uniq" do
     end
 end
 
+describe "#two_sum" do
+    it "finds all pairs of positions where elements sum to zero" do
+        expect(two_sum([-1,0,2,-2,1])).to eq([[0,4], [2,3]])
+    end
+end
+

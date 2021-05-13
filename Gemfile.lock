@@ -7,19 +7,19 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    rspec (3.2.0)
-      rspec-core (~> 3.2.0)
-      rspec-expectations (~> 3.2.0)
-      rspec-mocks (~> 3.2.0)
-    rspec-core (3.2.3)
-      rspec-support (~> 3.2.0)
-    rspec-expectations (3.2.1)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.2.0)
-    rspec-mocks (3.2.1)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.2)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.2.0)
-    rspec-support (3.2.2)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.2)
 
 PLATFORMS
   x86_64-linux
@@ -30,4 +30,4 @@ DEPENDENCIES
   rspec
 
 BUNDLED WITH
-   2.2.7
+   2.2.16
