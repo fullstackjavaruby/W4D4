@@ -18,3 +18,14 @@ def two_sum(arr)
     new_arr
 end
 
+def my_transpose(arr)
+    new_arr = Array.new(arr.length) {Array.new([])}
+    arr.each_with_index do |row, i1|
+        arr.each_with_index do |col, i2|
+            new_arr[i2] << row[i2]
+        end
+    end
+    new_arr
+end
+
+

@@ -12,3 +12,14 @@ describe "#two_sum" do
     end
 end
 
+describe "#my_transpose" do 
+    let(:arr1) {[
+        [0, 3, 6],
+        [1, 4, 7],
+        [2, 5, 8]  
+    ]}
+
+    it "will convert matrix to transposed version" do
+        expect(my_transpose(arr1)).to eq(arr1.transpose)
+    end    
+end
